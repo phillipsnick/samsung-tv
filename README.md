@@ -15,4 +15,4 @@ Unfortunately due to the non existent documentation and poor implementation of t
 
 ## Licence
 
-[The MIT License (MIT)](https://github.com/phillipsnick/samsung-tv/blob/master/LICENCE)
+[The MIT License (MIT)](https://github.com/phillipsnick/samsung-tv/blob/master/LICENSE)
