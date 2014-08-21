@@ -9,12 +9,11 @@ tv.getSession().on('open', function () {
   tv.sourceHdmi(1, function (err) {
     if (err) {
       console.log(err.toString());
-      return;
+    } else {
+      console.log('Successfully sent source HDMI 1 command');
     }
 
-    console.log('Successfully sent source HDMI 1 command');
+    tv.getSession().close();
+    process.exit(0);
   });
-
-  tv.getSession().close();
-  process.exit(0);
 });
