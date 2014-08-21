@@ -1,3 +1,3 @@
 module.exports = {
-  port: '/dev/ttyUSB0'
+  port: '/dev/tty.usbserial'
 }

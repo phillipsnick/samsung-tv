@@ -6,13 +6,13 @@ var tv = new samsungTv(config);
 tv.getSession().on('open', function () {
   console.log('Successfully opened RS232 connection');
 
-  tv.volumeMute(function (err) {
+  tv.powerToggle(function (err) {
     if (err) {
       console.log(err.toString());
       return;
     }
 
-    console.log('Successfully sent mute toggle command');
+    console.log('Successfully sent power toggle command');
   });
 
   tv.getSession().close();

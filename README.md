@@ -15,7 +15,7 @@ __I accept no responsibility for any damage done to your computer or TV__
 ## Installation
 
 ```bash
-npm install samsung-tv --save
+npm install samsung-tv
 ```
 
 
@@ -28,6 +28,10 @@ var tv = new samsungTv({
   port: ''
 });
 ```
+
+### Methods
+
+Work in progress, see either lib/app.js or examples directory.
 
 
 ## Notes
