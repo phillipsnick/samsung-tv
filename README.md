@@ -25,7 +25,11 @@ npm install samsung-tv
 var samsungTv = require('samsung-tv');
 
 var tv = new samsungTv({
-  port: ''
+  port: '' // eg. /dev/ttyS0
+});
+
+tv.getSession.on('open', function() {
+  // all commands to be placed here
 });
 ```
 
@@ -43,7 +47,7 @@ Managed to source a number of RS232 codes off various forum posts, specifically 
 Some considerations and limitations:
 * The RS232 port may need enabling via the [service menu](http://www.factory-reset.com/wiki/Samsung_Service_Menu)
 * Not all TVs can be powered up via RS232
-* Some TVs may not work at all (my 2007 LE40M87 prints output via serial but no ability to control it)
+* Some TVs may not work at all (my 2007 LE40M87 prints output via serial but no control)
 * No two way communication
 
 
