@@ -6,7 +6,7 @@ var tv = new samsungTv(config);
 tv.getSession().on('open', function () {
   console.log('Successfully opened RS232 connection');
 
-  tv.powerToggle(function (err) {
+  tv.sendPowerToggle(function (err) {
     if (err) {
       console.log(err.toString());
       return;

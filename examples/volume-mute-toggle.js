@@ -6,7 +6,7 @@ var tv = new samsungTv(config);
 tv.getSession().on('open', function () {
   console.log('Successfully opened RS232 connection');
 
-  tv.volumeMute(function (err) {
+  tv.sendVolumeMuteToggle(function (err) {
     if (err) {
       console.log(err.toString());
     } else {
