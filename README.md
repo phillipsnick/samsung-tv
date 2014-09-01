@@ -62,7 +62,7 @@ Send a command via the serial connection.
 __Arguments__
 
 * `array` - Array of 6 bytes
-* `callback(err) - Called once write has been completed
+* `callback(err)` - Called once write has been completed
  
 __Example__
 
@@ -109,7 +109,7 @@ Toggle the TVs power.
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -126,7 +126,7 @@ Set the TVs power to on/off.
 __Arguments__
 
 * `state` - bool
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -144,7 +144,7 @@ Increase the volume by 1.
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -161,7 +161,7 @@ Decrease the volume by 1.
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -179,7 +179,7 @@ Set the volume to a specific level.
 __Arguments__
 
 * `volume` - Integer between 0 and 100
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -198,7 +198,7 @@ Toggle mute.
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -215,7 +215,7 @@ Go to the next channel in the channel list.
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -232,7 +232,7 @@ Go to the previous channel in the channel list.
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -249,7 +249,7 @@ Go to the previous channel.
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -267,7 +267,7 @@ Go to a specific channel.
 __Arguments__
 
 * `channel` - Channel number (eg 101)
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -286,7 +286,7 @@ Set the source to TV.
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -304,7 +304,7 @@ Set the source to AV (1-3).
 __Arguments__
 
 * `value` - Which AV channel to use (1-3)
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -324,7 +324,7 @@ Set the source to component (1-3).
 __Arguments__
 
 * `value` - Which component channel to use (1-3)
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -343,7 +343,7 @@ Set the source to PC.
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -361,7 +361,7 @@ Set the source to HDMI (1-4).
 __Arguments__
 
 * `value` - Which HDMI channel to use (1-3)
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -380,7 +380,7 @@ Set the source to the Samsung Smart Hub.
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -408,7 +408,7 @@ Set the picture mode.
 __Arguments__
 
 * `value` - Picture mode as per table above
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -428,7 +428,7 @@ Set the backlight level (0-20).
 __Arguments__
 
 * `value` - Backlight level 0-20
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -448,7 +448,7 @@ Set the contrast level (0-100).
 __Arguments__
 
 * `value` - Contrast level 0-100
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -468,7 +468,7 @@ Set the brightness level (0-100).
 __Arguments__
 
 * `value` - Brightness level 0-100
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -488,7 +488,7 @@ Set the sharpness level (0-100).
 __Arguments__
 
 * `value` - Sharpness level 0-100
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -508,7 +508,7 @@ Set the colour level (0-100).
 __Arguments__
 
 * `value` - Colour level 0-100
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -528,7 +528,7 @@ Set the tint level (0-100).
 __Arguments__
 
 * `value` - Tint level 0-100
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -555,7 +555,7 @@ Set the picture black tone.
 __Arguments__
 
 * `mode` - Picture black tone as per table above
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -582,7 +582,7 @@ Set the dynamic contrast mode
 __Arguments__
 
 * `mode` - Dynamic contrast mode as per table above
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -602,7 +602,7 @@ Set the shadow detail level between -2 and 2
 __Arguments__
 
 * `value` - Shawdow detail level between -2 and 2
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -622,7 +622,7 @@ Set the picture gamma level between -3 and 3
 __Arguments__
 
 * `value` - Picture gamma level between -3 and 3
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -652,7 +652,7 @@ Set the picture size mode
 __Arguments__
 
 * `size` - Picture size mode as per table above
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -683,7 +683,7 @@ Set the 3D mode
 __Arguments__
 
 * `mode` - 3D mode as per table above
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -711,7 +711,7 @@ Set the sound mode
 __Arguments__
 
 * `mode` - Sound mode as per table above
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -731,7 +731,7 @@ Send a digit key press (0-9)
 __Arguments__
 
 * `key` - Key to send 0-9
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -750,7 +750,7 @@ Send the ok/enter key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -767,7 +767,7 @@ Send the exit key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -784,7 +784,7 @@ Send the return key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -801,7 +801,7 @@ Send the more key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -818,7 +818,7 @@ Send the tools key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -835,7 +835,7 @@ Send the info key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -852,7 +852,7 @@ Send the guide key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -869,7 +869,7 @@ Send the menu key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -886,7 +886,7 @@ Send the up key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -903,7 +903,7 @@ Send the down key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -920,7 +920,7 @@ Send the left key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -937,7 +937,7 @@ Send the right key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -954,7 +954,7 @@ Send the sleep mode key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -971,7 +971,7 @@ Send the red button key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -988,7 +988,7 @@ Send the green button key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -1005,7 +1005,7 @@ Send the yellow button key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -1022,7 +1022,7 @@ Send the blue button key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
@@ -1039,7 +1039,7 @@ Send the channel list key press
 
 __Arguments__
 
-* `callback(err) - Optional callback called once write has been completed
+* `callback(err)` - Optional callback called once write has been completed
 
 __Example__
 
