@@ -54,6 +54,7 @@ __Example__
 var checksum = tv.calculateChecksum([0x08, 0x22, 0x00, 0x00, 0x00, 0x00]);
 ```
 
+---------------------------------------
 
 #### send(array, callback)
 
@@ -77,16 +78,20 @@ tv.send([0x08, 0x22, 0x00, 0x00, 0x00, 0x00], function(err) {
 );
 ```
 
+---------------------------------------
+
 
 #### getSession()
 
 Get the current `serialport` session.
 
+---------------------------------------
 
 #### close()
 
 Close the current `serialport` session.
 
+---------------------------------------
 
 ### TV Specific
 
@@ -119,6 +124,8 @@ tv.sendPowerToggle(function(err) {
 });
 ```
 
+---------------------------------------
+
 #### setPower(state, callback)
 
 Set the TVs power to on/off.
@@ -138,6 +145,8 @@ tv.setPower(true, function(err) {
 });
 ```
 
+---------------------------------------
+
 #### sendVolumeUp(callback)
 
 Increase the volume by 1.
@@ -154,6 +163,7 @@ tv.sendVolumeUp(true, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendVolumeDown(callback)
 
@@ -171,6 +181,7 @@ tv.sendVolumeDown(true, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setVolume(volume, callback)
 
@@ -191,6 +202,7 @@ tv.setVolume(15, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendVolumeMuteToggle(callback)
 
@@ -208,6 +220,7 @@ tv.sendVolumeMuteToggle(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendChannelUp(callback)
 
@@ -225,6 +238,7 @@ tv.sendChannelUp(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendChannelDown(callback)
 
@@ -242,6 +256,7 @@ tv.sendChannelDown(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendChannelPrevious(callback)
 
@@ -259,6 +274,7 @@ tv.sendChannelPrevious(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setChannel(channel, callback)
 
@@ -279,6 +295,7 @@ tv.setChannel(101, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setSourceTv(callback)
 
@@ -296,6 +313,7 @@ tv.setSourceTv(101, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setSourceAv(value, callback)
 
@@ -316,6 +334,7 @@ tv.setSourceAv(1, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setSourceComponent(value, callback)
 
@@ -336,6 +355,7 @@ tv.setSourceComponent(1, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setSourcePc(callback)
 
@@ -353,6 +373,7 @@ tv.setSourcePc(101, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setSourceHdmi(value, callback)
 
@@ -373,6 +394,7 @@ tv.setSourceHdmi(1, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setSourceSmartHub(callback)
 
@@ -390,6 +412,7 @@ tv.setSourceSmartHub(101, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setPictureMode(value, callback)
 
@@ -420,6 +443,7 @@ tv.setPictureMode(0, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setBacklight(value, callback)
 
@@ -440,6 +464,7 @@ tv.setBacklight(20, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setContrast(value, callback)
 
@@ -460,6 +485,7 @@ tv.setContrast(100, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setBrightness(value, callback)
 
@@ -480,6 +506,7 @@ tv.setBrightness(100, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setSharpness(value, callback)
 
@@ -500,6 +527,7 @@ tv.setSharpness(100, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setColour(value, callback)
 
@@ -520,6 +548,7 @@ tv.setColour(100, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setTint(value, callback)
 
@@ -540,6 +569,7 @@ tv.setTint(100, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setPictureBlackTone(mode, callback)
 
@@ -567,6 +597,7 @@ tv.setPictureBlackTone(0, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setPictureDynamicContrast(mode, callback)
 
@@ -594,6 +625,7 @@ tv.setPictureDynamicContrast(0, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setPictureShadowDetail(value, callback)
 
@@ -614,6 +646,7 @@ tv.setPictureShadowDetail(0, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setPictureGamma(value, callback)
 
@@ -634,6 +667,7 @@ tv.setPictureGamma(0, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setPictureSize(size, callback)
 
@@ -664,6 +698,7 @@ tv.setPictureSize(0, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### set3DMode(mode, callback)
 
@@ -695,6 +730,7 @@ tv.set3DMode(0, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### setSoundMode(mode, callback)
 
@@ -723,6 +759,7 @@ tv.setSoundMode(0, function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyDigit(key, callback)
 
@@ -760,6 +797,7 @@ tv.sendKeyOk(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyExit(callback)
 
@@ -777,6 +815,7 @@ tv.sendKeyExit(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyReturn(callback)
 
@@ -794,6 +833,7 @@ tv.sendKeyReturn(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyMore(callback)
 
@@ -811,6 +851,7 @@ tv.sendKeyMore(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyTools(callback)
 
@@ -828,6 +869,7 @@ tv.sendKeyTools(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyInfo(callback)
 
@@ -845,6 +887,7 @@ tv.sendKeyInfo(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyGuide(callback)
 
@@ -862,6 +905,7 @@ tv.sendKeyGuide(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyMenu(callback)
 
@@ -879,6 +923,7 @@ tv.sendKeyMenu(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyUp(callback)
 
@@ -896,6 +941,7 @@ tv.sendKeyUp(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyDown(callback)
 
@@ -913,6 +959,7 @@ tv.sendKeyDown(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyLeft(callback)
 
@@ -930,6 +977,7 @@ tv.sendKeyLeft(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyRight(callback)
 
@@ -947,6 +995,7 @@ tv.sendKeyRight(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeySleepMode(callback)
 
@@ -964,6 +1013,7 @@ tv.sendKeySleepMode(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyRed(callback)
 
@@ -981,6 +1031,7 @@ tv.sendKeyRed(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyGreen(callback)
 
@@ -998,6 +1049,7 @@ tv.sendKeyGreen(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyYellow(callback)
 
@@ -1015,6 +1067,7 @@ tv.sendKeyYellow(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyBlue(callback)
 
@@ -1032,6 +1085,7 @@ tv.sendKeyBlue(function(err) {
 });
 ```
 
+---------------------------------------
 
 #### sendKeyChannelList(callback)
 
