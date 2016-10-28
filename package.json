@@ -19,6 +19,6 @@
   "author": "Nick Phillips <nick@linkstudios.co.uk>",
   "license": "MIT",
   "dependencies": {
-    "serialport": "~1.4.5"
+    "serialport": "~4.0.3"
   }
 }
