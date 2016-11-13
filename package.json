@@ -1,6 +1,6 @@
 {
   "name": "samsung-tv",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Module for controlling Samsung TVs via RS232",
   "main": "./lib/app.js",
   "scripts": {
